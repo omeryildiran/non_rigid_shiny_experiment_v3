@@ -1,0 +1,280 @@
+30.5666 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+52.1066 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000016C0E5D5AC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000016C134BFBB0>, multiSample=False, name='window1', numSamples=2, pos=(420, 180), screen=0, size=array([1080,  720]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+52.1068 	EXP 	window1: mouseVisible = True
+52.1069 	EXP 	window1: mouseVisible = True
+52.1069 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+52.1070 	EXP 	window1: recordFrameIntervals = False
+52.2715 	EXP 	window1: recordFrameIntervals = True
+52.4556 	EXP 	Screen (0) actual frame rate measured at 59.79Hz
+52.4557 	EXP 	window1: recordFrameIntervals = False
+52.8726 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+57.2847 	EXP 	Created welcome_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='welcome_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+57.3049 	EXP 	Created familiarization_shiny = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='familiarization_shiny', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+57.3068 	EXP 	Created skip_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='skip_text', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+57.3091 	EXP 	Created blank_100ms = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='blank_100ms', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+57.3240 	EXP 	Created text_Matte = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='text_Matte', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+57.3456 	EXP 	Created remindText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='remindText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+57.3486 	EXP 	Created question_gloss = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='question_gloss', opacity=1.0, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+57.3502 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+57.3627 	EXP 	Created endText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.029999999999999995, italic=False, languageStyle='LTR', name='endText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+57.4021 	EXP 	welcome_text: autoDraw = True
+69.1208 	DATA 	Keypress: space
+69.1305 	EXP 	welcome_text: autoDraw = False
+69.2303 	EXP 	familiarization_shiny: autoDraw = True
+69.6172 	EXP 	Imported glossy_examplar_objects.csv as conditions, 2 conditions, 24 params
+69.6204 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+69.6216 	EXP 	New trial (rep=0, index=0): OrderedDict([('test_object', 120), ('true_type', 0), ('classified_as', 0), ('decision_value', -16.56748621), ('material_name', 'shiny_soft_gothicManor_None_[90, 0, 0]_[90, 0, 0]_WIND_1.067_0_4'), ('rigidity', 'soft'), ('glossiness', 'shiny'), ('decision_value_norm', -0.735730726), ('Glossiness', 'shiny'), ('Rigidity', 'soft'), ('Enviroment_Map', 'gothicManor'), ('Texture', 'None'), ('init_rot', [90, 0, 0]), ('end_rot', [90, 0, 0]), ('Force', 'WIND'), ('disp_scale', 1.067), ('disp_depth', 0), ('glossID', 0), ('rigidID', 1), ('type_truncted', 1), ('type8way', -1), ('detail', -1), ('decisionNormalized', -0.5422849481237103), ('obj_dir', 'validationSet_v7_movies/120.mp4')])
+71.2361 	EXP 	Created shiny_ex_trials = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='validationSet_v7_movies/120.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='shiny_ex_trials', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+71.6144 	WARNING 	0.37817479998921044: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.04
+71.6144 	WARNING 	0.3782305000058841: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+71.6144 	WARNING 	0.37827489999472164: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+71.6145 	WARNING 	0.37831739999819547: Video catchup needed, advancing self._nextFrameT from 0.12 to 0.16
+71.6145 	WARNING 	0.3783474999945611: Video catchup needed, advancing self._nextFrameT from 0.16 to 0.2
+71.6146 	WARNING 	0.37838350000674836: Video catchup needed, advancing self._nextFrameT from 0.2 to 0.24000000000000002
+71.6146 	WARNING 	0.37842590000946075: Video catchup needed, advancing self._nextFrameT from 0.24000000000000002 to 0.28
+71.6147 	WARNING 	0.3784853999968618: Video catchup needed, advancing self._nextFrameT from 0.28 to 0.32
+71.6466 	DATA 	Keypress: space
+71.6613 	EXP 	familiarization_shiny: autoDraw = False
+71.6613 	EXP 	shiny_ex_trials: autoLog = True
+71.6613 	EXP 	shiny_ex_trials: movie = 'validationSet_v7_movies/120.mp4'
+71.6613 	EXP 	shiny_ex_trials: ori = 0.0
+71.6613 	EXP 	skip_text: height = 0.029999999999999995
+71.6613 	EXP 	skip_text: height = 0.029999999999999995
+71.6613 	EXP 	skip_text: height = 0.029999999999999995
+71.6613 	EXP 	skip_text: text = "It is a SHINY object\n\nPress 'Space' to see next"
+71.6613 	EXP 	shiny_ex_trials: autoDraw = True
+71.6613 	EXP 	skip_text: autoDraw = True
+72.3452 	EXP 	Set shiny_ex_trials finished
+72.3469 	WARNING 	0.19867709997924976: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+72.3470 	WARNING 	0.1987673999974504: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+73.0618 	EXP 	Set shiny_ex_trials finished
+73.3341 	DATA 	Keypress: right
+73.8450 	EXP 	Set shiny_ex_trials finished
+74.4335 	DATA 	Keypress: left
+74.6622 	EXP 	Set shiny_ex_trials finished
+75.2347 	DATA 	Keypress: space
+75.2468 	EXP 	shiny_ex_trials: autoDraw = False
+75.2468 	EXP 	skip_text: autoDraw = False
+75.2468 	EXP 	blank_100ms: autoDraw = True
+75.2468 	EXP 	text_Matte: autoDraw = True
+75.2468 	EXP 	text_Matte: autoDraw = False
+75.3468 	EXP 	blank_100ms: autoDraw = False
+75.4156 	EXP 	New trial (rep=0, index=1): OrderedDict([('test_object', 28), ('true_type', 0), ('classified_as', 0), ('decision_value', -16.55869697), ('material_name', 'shiny_soft_uenoShrine_None_[51, 0, 0]_[51, 0, 0]_TURBULENCE_0.941_0_10'), ('rigidity', 'soft'), ('glossiness', 'shiny'), ('decision_value_norm', -0.735406954), ('Glossiness', 'shiny'), ('Rigidity', 'soft'), ('Enviroment_Map', 'uenoShrine'), ('Texture', 'None'), ('init_rot', [51, 0, 0]), ('end_rot', [51, 0, 0]), ('Force', 'TURBULENCE'), ('disp_scale', 0.941), ('disp_depth', 0), ('glossID', 0), ('rigidID', 1), ('type_truncted', 1), ('type8way', -1), ('detail', -1), ('decisionNormalized', -0.5419972597866245), ('obj_dir', 'validationSet_v7_movies/28.mp4')])
+75.4171 	EXP 	Created shiny_ex_trials = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-1.0, filename='validationSet_v7_movies/28.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='shiny_ex_trials', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([0., 0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+75.6167 	WARNING 	0.19958630000473931: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.04
+75.6168 	WARNING 	0.19962510000914335: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+75.6168 	WARNING 	0.19964239999535494: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+75.6290 	EXP 	blank_100ms: autoDraw = False
+75.6290 	EXP 	text_Matte: autoDraw = False
+75.6290 	EXP 	shiny_ex_trials: autoLog = True
+75.6290 	EXP 	shiny_ex_trials: movie = 'validationSet_v7_movies/28.mp4'
+75.6290 	EXP 	shiny_ex_trials: ori = 0.0
+75.6290 	EXP 	skip_text: text = "It is a SHINY object\n\nPress 'Space' to see next"
+75.6290 	EXP 	shiny_ex_trials: autoDraw = True
+75.6290 	EXP 	skip_text: autoDraw = True
+76.4461 	EXP 	Set shiny_ex_trials finished
+76.6828 	DATA 	Keypress: space
+76.6971 	EXP 	shiny_ex_trials: autoDraw = False
+76.6971 	EXP 	skip_text: autoDraw = False
+76.6971 	EXP 	blank_100ms: autoDraw = True
+76.6971 	EXP 	text_Matte: autoDraw = True
+76.6971 	EXP 	text_Matte: autoDraw = False
+76.7969 	EXP 	blank_100ms: autoDraw = False
+76.8803 	EXP 	blank_100ms: autoDraw = False
+76.8803 	EXP 	text_Matte: autoDraw = False
+76.8803 	EXP 	remindText: autoDraw = True
+77.5505 	EXP 	Imported glossy_exp_objects.csv as conditions, 20 conditions, 24 params
+77.5509 	EXP 	Created sequence: sequential, trialTypes=20, nReps=5, seed=None
+77.5516 	EXP 	New trial (rep=0, index=0): OrderedDict([('test_object', 126), ('true_type', 0), ('classified_as', 0), ('decision_value', -23.74143063), ('material_name', 'shiny_soft_gothicManor_None_[7, 0, 0]_[7, 0, 0]_CHARGE_1.961_1_5'), ('rigidity', 'soft'), ('glossiness', 'shiny'), ('decision_value_norm', -1.0), ('Glossiness', 'shiny'), ('Rigidity', 'soft'), ('Enviroment_Map', 'gothicManor'), ('Texture', 'None'), ('init_rot', [7, 0, 0]), ('end_rot', [7, 0, 0]), ('Force', 'CHARGE'), ('disp_scale', 1.961), ('disp_depth', 1), ('glossID', 0), ('rigidID', 1), ('type_truncted', 1), ('type8way', -1), ('detail', -1), ('decisionNormalized', -0.7771016263047318), ('obj_dir', 'validationSet_v7_movies/126.mp4')])
+77.5559 	EXP 	Created high_gloss = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-4.0, filename='validationSet_v7_movies/281.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='high_gloss', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([270.,   0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+77.7435 	WARNING 	0.18762309997691773: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.04
+77.7436 	WARNING 	0.18768629999249242: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+77.7436 	WARNING 	0.18773339997278526: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+77.7481 	EXP 	Created low_gloss = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='validationSet_v7_movies/67.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='low_gloss', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([-270.,    0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+78.0049 	WARNING 	0.2567935999832116: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.04
+78.0050 	WARNING 	0.2568559999926947: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+78.0050 	WARNING 	0.2568950999993831: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+78.0051 	WARNING 	0.2569338000030257: Video catchup needed, advancing self._nextFrameT from 0.12 to 0.16
+78.0051 	WARNING 	0.2569921000103932: Video catchup needed, advancing self._nextFrameT from 0.16 to 0.2
+78.0126 	DATA 	Keypress: space
+78.0304 	EXP 	remindText: autoDraw = False
+78.0304 	EXP 	question_gloss: height = 0.029999999999999995
+78.0304 	EXP 	question_gloss: height = 0.029999999999999995
+78.0304 	EXP 	question_gloss: height = 0.029999999999999995
+78.0304 	EXP 	question_gloss: text = 'Which object is more SHINY?'
+78.0304 	EXP 	high_gloss: autoLog = True
+78.0304 	EXP 	high_gloss: movie = 'validationSet_v7_movies/281.mp4'
+78.0304 	EXP 	high_gloss: ori = 0.0
+78.0304 	EXP 	low_gloss: autoLog = True
+78.0304 	EXP 	low_gloss: movie = 'validationSet_v7_movies/67.mp4'
+78.0304 	EXP 	low_gloss: ori = 0.0
+78.0304 	EXP 	question_gloss: autoDraw = True
+78.0304 	EXP 	high_gloss: autoDraw = True
+78.0304 	EXP 	low_gloss: autoDraw = True
+78.7467 	EXP 	Set low_gloss finished
+78.7481 	WARNING 	0.817293999978574: Video catchup needed, advancing self._nextFrameT from 0.7200000000000001 to 0.7600000000000001
+78.9068 	WARNING 	0.2566274999990128: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+78.9069 	WARNING 	0.25666529999580234: Video catchup needed, advancing self._nextFrameT from 0.12 to 0.16
+78.9069 	WARNING 	0.2566866000124719: Video catchup needed, advancing self._nextFrameT from 0.16 to 0.2
+78.9305 	EXP 	Set high_gloss finished
+78.9322 	WARNING 	0.16464540001470596: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+78.9322 	WARNING 	0.16467779999948107: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+79.5478 	EXP 	Set low_gloss finished
+79.5502 	WARNING 	0.7827107000048272: Video catchup needed, advancing self._nextFrameT from 0.68 to 0.7200000000000001
+79.6716 	WARNING 	0.23679500000434928: Video catchup needed, advancing self._nextFrameT from 0.12 to 0.16
+79.6807 	EXP 	Set high_gloss finished
+79.7195 	DATA 	Keypress: right
+79.7494 	EXP 	question_gloss: autoDraw = False
+79.7494 	EXP 	high_gloss: autoDraw = False
+79.7494 	EXP 	low_gloss: autoDraw = False
+79.7494 	EXP 	text: autoDraw = True
+79.8334 	EXP 	New trial (rep=0, index=1): OrderedDict([('test_object', 182), ('true_type', 0), ('classified_as', 0), ('decision_value', -20.90701178), ('material_name', 'shiny_soft_abandoned_None_[86, 0, 0]_[86, 0, 0]_WIND_1.99_2_7'), ('rigidity', 'soft'), ('glossiness', 'shiny'), ('decision_value_norm', -0.895587453), ('Glossiness', 'shiny'), ('Rigidity', 'soft'), ('Enviroment_Map', 'abandoned'), ('Texture', 'None'), ('init_rot', [86, 0, 0]), ('end_rot', [86, 0, 0]), ('Force', 'WIND'), ('disp_scale', 1.99), ('disp_depth', 2), ('glossID', 0), ('rigidID', 1), ('type_truncted', 1), ('type8way', -1), ('detail', -1), ('decisionNormalized', -0.6843257724696848), ('obj_dir', 'validationSet_v7_movies/182.mp4')])
+79.8348 	EXP 	Created high_gloss = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-4.0, filename='validationSet_v7_movies/280.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='high_gloss', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([270.,   0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+80.0148 	WARNING 	0.17994169998564757: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.04
+80.0148 	WARNING 	0.17997349999495782: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+80.0148 	WARNING 	0.1799895000003744: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+80.0180 	EXP 	Created low_gloss = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='validationSet_v7_movies/188.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='low_gloss', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([-270.,    0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+80.1898 	WARNING 	0.17172449998906814: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.04
+80.1898 	WARNING 	0.1717736999853514: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+80.1898 	WARNING 	0.1718018999963533: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+80.1973 	EXP 	text: autoDraw = False
+80.1973 	EXP 	text: autoDraw = False
+80.1973 	EXP 	question_gloss: text = 'Which object is more SHINY?'
+80.1973 	EXP 	high_gloss: autoLog = True
+80.1973 	EXP 	high_gloss: movie = 'validationSet_v7_movies/280.mp4'
+80.1973 	EXP 	high_gloss: ori = 0.0
+80.1973 	EXP 	low_gloss: autoLog = True
+80.1973 	EXP 	low_gloss: movie = 'validationSet_v7_movies/188.mp4'
+80.1973 	EXP 	low_gloss: ori = 0.0
+80.1973 	EXP 	question_gloss: autoDraw = True
+80.1973 	EXP 	high_gloss: autoDraw = True
+80.1973 	EXP 	low_gloss: autoDraw = True
+81.1479 	EXP 	Set high_gloss finished
+81.1479 	EXP 	Set low_gloss finished
+81.1494 	WARNING 	0.24750399999902584: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+81.1494 	WARNING 	0.2475401999836322: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+81.1494 	WARNING 	0.2475622000056319: Video catchup needed, advancing self._nextFrameT from 0.12 to 0.16
+81.1495 	WARNING 	0.24758289998862892: Video catchup needed, advancing self._nextFrameT from 0.16 to 0.2
+81.1541 	WARNING 	0.12282640000921674: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+81.8032 	WARNING 	0.7719354000000749: Video catchup needed, advancing self._nextFrameT from 0.68 to 0.7200000000000001
+81.8146 	EXP 	Set high_gloss finished
+81.9484 	EXP 	Set low_gloss finished
+81.9498 	WARNING 	0.24908920002053492: Video catchup needed, advancing self._nextFrameT from 0.12 to 0.16
+81.9499 	WARNING 	0.24911629999405704: Video catchup needed, advancing self._nextFrameT from 0.16 to 0.2
+82.5984 	EXP 	Set high_gloss finished
+82.8320 	EXP 	Set low_gloss finished
+82.8344 	WARNING 	0.3330777999944985: Video catchup needed, advancing self._nextFrameT from 0.16 to 0.2
+82.8345 	WARNING 	0.33313379998435266: Video catchup needed, advancing self._nextFrameT from 0.2 to 0.24000000000000002
+82.8345 	WARNING 	0.33317349999560975: Video catchup needed, advancing self._nextFrameT from 0.24000000000000002 to 0.28
+82.8406 	WARNING 	0.20360939999227412: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+82.8406 	WARNING 	0.20366880000801757: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+82.8406 	WARNING 	0.20370480002020486: Video catchup needed, advancing self._nextFrameT from 0.12 to 0.16
+83.3987 	EXP 	Set high_gloss finished
+83.5326 	EXP 	Set low_gloss finished
+84.1831 	WARNING 	0.7469203000073321: Video catchup needed, advancing self._nextFrameT from 0.64 to 0.68
+84.1995 	EXP 	Set high_gloss finished
+84.3996 	EXP 	Set low_gloss finished
+84.4015 	WARNING 	0.314441499998793: Video catchup needed, advancing self._nextFrameT from 0.16 to 0.2
+84.4015 	WARNING 	Max reportNDroppedFrames reached, will not log any more dropped frames
+84.4049 	WARNING 	0.1661786999902688: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+84.4050 	WARNING 	0.16624429999501444: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+84.9751 	WARNING 	0.736376199987717: Video catchup needed, advancing self._nextFrameT from 0.64 to 0.68
+84.9825 	EXP 	Set high_gloss finished
+85.1326 	EXP 	Set low_gloss finished
+85.7700 	WARNING 	0.7340707999828737: Video catchup needed, advancing self._nextFrameT from 0.64 to 0.68
+85.7700 	WARNING 	Max reportNDroppedFrames reached, will not log any more dropped frames
+85.7834 	EXP 	Set high_gloss finished
+85.9665 	EXP 	Set low_gloss finished
+86.5842 	EXP 	Set high_gloss finished
+86.7499 	EXP 	Set low_gloss finished
+87.4176 	EXP 	Set high_gloss finished
+87.6178 	EXP 	Set low_gloss finished
+88.2014 	EXP 	Set high_gloss finished
+88.4006 	EXP 	Set low_gloss finished
+88.9675 	EXP 	Set high_gloss finished
+89.1341 	EXP 	Set low_gloss finished
+89.7683 	EXP 	Set high_gloss finished
+89.9180 	EXP 	Set low_gloss finished
+90.5681 	EXP 	Set high_gloss finished
+90.7180 	EXP 	Set low_gloss finished
+91.3518 	EXP 	Set high_gloss finished
+91.5358 	EXP 	Set low_gloss finished
+92.1691 	EXP 	Set high_gloss finished
+92.4028 	EXP 	Set low_gloss finished
+92.9522 	EXP 	Set high_gloss finished
+93.1030 	EXP 	Set low_gloss finished
+93.4928 	DATA 	Keypress: right
+93.5044 	EXP 	question_gloss: autoDraw = False
+93.5044 	EXP 	high_gloss: autoDraw = False
+93.5044 	EXP 	low_gloss: autoDraw = False
+93.5044 	EXP 	text: autoDraw = True
+93.5888 	EXP 	New trial (rep=0, index=2): OrderedDict([('test_object', 298), ('true_type', 0), ('classified_as', 0), ('decision_value', -19.53749142), ('material_name', 'shiny_rigid_machineShop_None_[19, 0, 0]_[-46, -50, -54]_None_1.838_2_5'), ('rigidity', 'rigid'), ('glossiness', 'shiny'), ('decision_value_norm', -0.845137919), ('Glossiness', 'shiny'), ('Rigidity', 'rigid'), ('Enviroment_Map', 'machineShop'), ('Texture', 'None'), ('init_rot', [19, 0, 0]), ('end_rot', [-46, -50, -54]), ('Force', 'None'), ('disp_scale', 1.838), ('disp_depth', 2), ('glossID', 0), ('rigidID', 0), ('type_truncted', 2), ('type8way', 1), ('detail', 1), ('decisionNormalized', -0.6394987982405651), ('obj_dir', 'validationSet_v7_movies/298.mp4')])
+93.5901 	EXP 	Created high_gloss = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-4.0, filename='validationSet_v7_movies/294.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='high_gloss', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([270.,   0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+93.7933 	WARNING 	0.20313870001700707: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.04
+93.7933 	WARNING 	0.20317019999492913: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+93.7933 	WARNING 	0.2031862000003457: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+93.7934 	WARNING 	0.20320119999814779: Video catchup needed, advancing self._nextFrameT from 0.12 to 0.16
+93.7975 	EXP 	Created low_gloss = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='validationSet_v7_movies/392.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='low_gloss', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([-270.,    0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+94.0694 	WARNING 	0.271783600008348: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.04
+94.0694 	WARNING 	0.27185930000268854: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+94.0695 	WARNING 	0.27190049999626353: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+94.0695 	WARNING 	0.27193700001225807: Video catchup needed, advancing self._nextFrameT from 0.12 to 0.16
+94.0695 	WARNING 	0.2719724999915343: Video catchup needed, advancing self._nextFrameT from 0.16 to 0.2
+94.0862 	EXP 	text: autoDraw = False
+94.0862 	EXP 	text: autoDraw = False
+94.0862 	EXP 	question_gloss: text = 'Which object is more SHINY?'
+94.0862 	EXP 	high_gloss: autoLog = True
+94.0862 	EXP 	high_gloss: movie = 'validationSet_v7_movies/294.mp4'
+94.0862 	EXP 	high_gloss: ori = 0.0
+94.0862 	EXP 	low_gloss: autoLog = True
+94.0862 	EXP 	low_gloss: movie = 'validationSet_v7_movies/392.mp4'
+94.0862 	EXP 	low_gloss: ori = 0.0
+94.0862 	EXP 	question_gloss: autoDraw = True
+94.0862 	EXP 	high_gloss: autoDraw = True
+94.0862 	EXP 	low_gloss: autoDraw = True
+94.8198 	EXP 	Set low_gloss finished
+94.8211 	WARNING 	0.8630397999950219: Video catchup needed, advancing self._nextFrameT from 0.7600000000000001 to 0.8000000000000002
+94.8384 	WARNING 	0.13057740000658669: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+95.0113 	WARNING 	0.30356600001687184: Video catchup needed, advancing self._nextFrameT from 0.12 to 0.16
+95.0114 	WARNING 	0.30359710002085194: Video catchup needed, advancing self._nextFrameT from 0.16 to 0.2
+95.0114 	WARNING 	0.3036137000017334: Video catchup needed, advancing self._nextFrameT from 0.2 to 0.24000000000000002
+95.0199 	EXP 	Set high_gloss finished
+95.0213 	WARNING 	0.16514050000114366: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+95.0213 	WARNING 	0.16516840000986122: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+95.6042 	EXP 	Set low_gloss finished
+95.7605 	WARNING 	0.2534958999895025: Video catchup needed, advancing self._nextFrameT from 0.16 to 0.2
+95.7700 	EXP 	Set high_gloss finished
+96.2761 	DATA 	Keypress: right
+96.2888 	EXP 	question_gloss: autoDraw = False
+96.2888 	EXP 	high_gloss: autoDraw = False
+96.2888 	EXP 	low_gloss: autoDraw = False
+96.2888 	EXP 	text: autoDraw = True
+96.3736 	EXP 	New trial (rep=0, index=3): OrderedDict([('test_object', 281), ('true_type', 0), ('classified_as', 0), ('decision_value', -18.99610056), ('material_name', 'shiny_rigid_machineShop_None_[76, 0, 0]_[-53, 38, 48]_None_1.693_2_0'), ('rigidity', 'rigid'), ('glossiness', 'shiny'), ('decision_value_norm', -0.825194501), ('Glossiness', 'shiny'), ('Rigidity', 'rigid'), ('Enviroment_Map', 'machineShop'), ('Texture', 'None'), ('init_rot', [76, 0, 0]), ('end_rot', [-53, 38, 48]), ('Force', 'None'), ('disp_scale', 1.693), ('disp_depth', 2), ('glossID', 0), ('rigidID', 0), ('type_truncted', 2), ('type8way', 1), ('detail', 1), ('decisionNormalized', -0.6217780583100533), ('obj_dir', 'validationSet_v7_movies/281.mp4')])
+96.3752 	EXP 	Created high_gloss = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-4.0, filename='validationSet_v7_movies/282.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='high_gloss', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([270.,   0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+96.5660 	WARNING 	0.19074799999361858: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.04
+96.5661 	WARNING 	0.1907991000043694: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+96.5661 	WARNING 	0.1908316999906674: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+96.5709 	EXP 	Created low_gloss = MovieStim3(__class__=<class 'psychopy.visual.movie3.MovieStim3'>, anchor=('center', 'center'), autoLog=True, color=UNKNOWN, colorSpace=UNKNOWN, depth=-5.0, filename='validationSet_v7_movies/276.mp4', flipHoriz=False, flipVert=False, fps=UNKNOWN, interpolate=True, loop=True, name='low_gloss', noAudio=True, opacity=1, ori=method-wrapper(...), pos=array([-270.,    0.]), size=None, units='pix', vframe_callback=UNKNOWN, volume=UNKNOWN, win=Window(...))
+96.7612 	WARNING 	0.19021929998416454: Video catchup needed, advancing self._nextFrameT from 0.0 to 0.04
+96.7612 	WARNING 	0.19026360000134446: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+96.7613 	WARNING 	0.19028599999728613: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+96.7709 	EXP 	text: autoDraw = False
+96.7709 	EXP 	text: autoDraw = False
+96.7709 	EXP 	question_gloss: text = 'Which object is more SHINY?'
+96.7709 	EXP 	high_gloss: autoLog = True
+96.7709 	EXP 	high_gloss: movie = 'validationSet_v7_movies/282.mp4'
+96.7709 	EXP 	high_gloss: ori = 0.0
+96.7709 	EXP 	low_gloss: autoLog = True
+96.7709 	EXP 	low_gloss: movie = 'validationSet_v7_movies/276.mp4'
+96.7709 	EXP 	low_gloss: ori = 0.0
+96.7709 	EXP 	question_gloss: autoDraw = True
+96.7709 	EXP 	high_gloss: autoDraw = True
+96.7709 	EXP 	low_gloss: autoDraw = True
+97.6708 	EXP 	Set high_gloss finished
+97.6708 	EXP 	Set low_gloss finished
+97.6723 	WARNING 	0.1987102999992203: Video catchup needed, advancing self._nextFrameT from 0.04 to 0.08
+97.6723 	WARNING 	0.19873989999177866: Video catchup needed, advancing self._nextFrameT from 0.08 to 0.12
+98.2106 	DATA 	Keypress: escape
+98.3497 	WARNING 	0.7808479999948759: Video catchup needed, advancing self._nextFrameT from 0.68 to 0.7200000000000001
+98.3716 	EXP 	Set high_gloss finished
+98.8694 	EXP 	window1: mouseVisible = True
